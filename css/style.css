@@ -1,0 +1,453 @@
+/* =========== Universal Code =========== */
+*{
+    margin: 0; 
+    padding: 0;
+}
+html{
+	font-size:13px;
+	scroll-behavior: smooth;
+}
+body{
+    font-size:13px;
+	font-family: 'Montserrat', sans-serif;
+	text-rendering: optimizeLegibility;
+	line-height: 1rem;
+}
+ ul li{
+     list-style: none;
+ }
+a{
+    text-decoration: none;
+}
+.my-btn{
+    background: #f42267;
+    border-bottom:.4rem solid #ff5990;
+}
+.menu .fas{
+   color: #fff;
+}
+/* =======Header Style======= */
+.header{
+    background-image: url("../image/first-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center cenetr;
+}
+/* =========Menu Design============*/
+.navbar-toggler:focus{
+   box-shadow: none;
+}
+.navbar-toggler[aria-expanded="true"]{
+    transform: rotate(90deg);
+}
+.navbar-collapse.collapse.show{
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+}
+.nav-item .nav-link{
+    color: #fff;
+}
+.nav-item .nav-link:hover, .nav-item .nav-link.active{
+    color:#f42267;
+}
+/* ========header text Part====== */
+.header-text{
+    margin-top: 10rem;
+    color: #fff;
+    margin-left: 18%;
+
+}
+.header-text .p1{
+    font-size: 1.6rem;
+    line-height:1.6rem ;
+    font-weight: 400;
+    font-style: italic;
+}
+.header-text .p2{
+    font-size: 2.5rem;
+    line-height:2.5rem ;
+    font-weight: 600;
+}
+.header-text .p3{
+    font-size: .9rem;
+    line-height:1.2rem ;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.header-text .head-btn{
+    padding:1.2rem 3.2rem;
+    color: #fff;
+    font-size: .8rem;
+    background: #000;
+    border-radius: 3rem;
+    margin-right: 1rem;
+    transition: .3s;
+}
+.head-btn.btn-1{
+    background: #f42267;
+}
+.head-btn.btn-1:hover{
+    background: #fff;
+    color:#f42267;
+}
+.head-btn.btn-2{
+    background: #763390;
+}
+.head-btn.btn-2:hover{
+    background: #fff;
+    color:#763390;
+}
+.valign{
+    display: flex;
+    align-items:flex-end;  
+}
+.head-pic img{
+   margin-left: rem;
+}
+.mypad{
+    padding-bottom: 5rem;
+}
+/* ==========Sec 1 Design========== */
+ .sec1{
+     background-image: url("../image/sec1bg.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     padding: 6rem 9rem;
+     background-attachment: fixed;;
+ }
+ .sec1 .p1{
+     font-size: 1.5rem;
+     line-height: 1.5rem;
+     font-weight: 400;
+     font-style: italic;
+ }
+ .sec1 h2{
+     font-size: 2.5rem;
+     line-height: 2.5rem;
+     font-weight: bolder;
+     margin-bottom: 3rem;
+ }
+ .tab .nav-link{
+     font-size: .8rem;
+     line-height: .8rem;
+     padding: .5rem;
+ }
+ .tab .nav-link.active{
+     background: #f42267;
+     border-radius: .8rem;
+ }
+ .tab .tab-pane{
+     font-size: 1rem;
+     line-height: 1.5rem;
+     margin-bottom: 4rem;
+ }
+ /* =============Sec 2 Design============= */
+
+ .upper{
+    background:linear-gradient(rgba(75, 45, 127, 0.9),rgba(75,45,127,0.9));
+ }
+ .upper .effect{
+    padding:3rem 4rem;
+ }
+ .upper .effect:hover{
+    background: #40286a;
+ }
+ .upper p{
+     line-height: 1.5rem;
+     font-size: .8rem;
+ }
+ .sec2 .upper .p1{
+     font-size: 1.3rem;
+     line-height: 1.6rem;
+     margin-bottom: 2rem;
+ }
+ .highlight{
+     font-size: 1.5rem;
+     font-weight: bold;
+ }
+ .upper img{
+     margin-bottom: 2rem;
+ }
+
+ .lower{
+     background-image: url("../image/sec3.jpg");
+     background-position: center center;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ .lower .p1{
+     font-size: 1.8rem;
+     font-weight: 400;
+     line-height: 1.8rem;
+     font-style: italic;
+ }
+ .lower h2{
+     font-size: 2.5rem;
+     line-height: 2.5rem;
+     font-weight: bolder;
+ }
+ .lower .p2{
+     margin: 3rem 7rem;
+     line-height: 1.5rem;
+ }
+ /* =============Section 3 Design=========== */
+ .sec3{
+     padding: 5rem 9rem;
+
+ }
+ .sec3 .uptext .p1{
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+    font-style: italic;
+ }
+ .heading{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #484848;
+    margin-bottom: 2rem;
+ }
+ .sec3 .uptext .p2{
+     font-size: .8rem;
+     line-height: 1.2rem;
+     margin-bottom: 4rem;
+ }
+ .sec3 .lowtext img[src="image/massege.png"]{
+    margin-bottom: .35rem;
+ }
+ .sec3 .lowtext h4{
+     font-weight: 600;
+    margin-top: .8rem;
+    color:#484848;
+ }
+ .sec3 .lowtext p{
+     line-height: 1.3rem;
+     margin-bottom: 2rem;
+ }
+ .sec3 .video{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+ }
+
+ .sec3 .myvideo{
+     width: 100%;
+     height: 70%;
+    border-radius: 1rem;
+ }
+/* =================sECTION 4  DESIGN============== */
+.sec4{
+    padding: 4rem;
+    background: #f1f1f1;
+}
+.sec4 .p1{
+    width: 60%;
+    font-size: .9rem;
+    line-height: 1.3rem;
+    margin: 3rem auto;
+    margin-top: 1rem;
+}
+.pictab button{
+    color:#484848;
+    padding: .8rem 1.7rem;
+    border-radius: 1.8rem;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+.workpic .mix{
+    margin-bottom: 1rem;
+}
+.workpic img{
+    border-radius: 1rem;
+}
+.pictab button.mixitup-control-active{
+    background: #f42267 ;
+}
+/* ============== Secion 5 Design============ */
+.sec5{
+    padding: 3rem 7rem;
+    background: #4b2d7f;
+}
+/* ============== Secion 6 Design============ */
+.sec6{
+    padding: 3rem 6rem 0rem 6rem;
+    background-image: url("../image/sec6-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #ffffff;
+}
+.size{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.sec6 .p1{
+    font-size: 2rem;
+    line-height: 2rem;
+    font-style: italic;
+}
+.sec6 .size h3{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.sec6 .size .p2{
+    font-style: italic;
+    font-size: .9rem;
+    line-height: 1.3rem;
+    margin-bottom: 3rem;
+}
+.size ul{
+    display: flex;
+    padding: 0;
+}
+.size li{
+    margin-right: .5rem;
+}
+.size li .fas{
+    color: #f42267;
+}
+/* ============== Secion 7 Design============ */
+.sec7{
+    background: url("../image/sec7bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 4rem;
+    color: #fff;
+}
+.sec7 h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 2rem;
+}
+.sec7 h5{
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    font-weight: bold;
+}
+.sec7 .p1{
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+.sec7 form input{
+    border-radius: .7rem;
+    background: #f46e9a;
+    border: none;
+    color: #fff;
+}
+.sec7 form input::placeholder{
+    color: #fff;
+}
+.sec7 form input[placeholder=SUBMIT]{
+    background: #4b2d7f;
+    border-bottom: .3rem solid #a57ee9;
+}
+/* ============== Secion 8 Design============ */
+.sec8{
+    padding: 4rem;
+    background: #4b2d7f;
+}
+.sec8 ul{
+    margin-bottom: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.sec8 ul li{
+   
+    padding: 0 1rem;
+    border-right: .1rem solid #7647c7;
+}
+.sec8 ul li:last-child{
+    padding-right: 0;
+    border-right: 0;
+}
+.sec8 ul li a{
+    color:#fff
+}
+/* ============== Secion 9 Design============ */
+.sec9{
+    padding: 4rem;
+    background-image: url("../image/sec1bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.sec9 h4{
+    color: #4b2d7f;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.sec9 ul li{
+    margin-bottom: 1rem;
+}
+.sec9 ul li a{
+    color:#000;
+    font-weight: bold;
+}
+footer{
+    margin-top: 7rem;
+    text-align: center;
+    font-size: .9rem;
+    line-height: 1rem;
+}
+
+
+/* ========Responsive============= */
+@media only screen and (max-width: 769px){
+    .sec1, .sec3 {
+        padding: 6rem 2rem;
+    }
+    .lower .text{
+        padding: 3rem 0!important;
+    }
+    .lower .p2{
+        margin: 3rem 2rem;
+    }
+    .sec4 .p1{
+        width:100%;
+    }
+
+}
+@media only screen and (max-width: 430px) {
+    .header-text {
+       margin-left:0;
+       margin-top: 5rem;
+    }
+    .button{
+        display: block!important;
+        text-align: center;
+    }
+    .my-mb{
+        margin-bottom: 3rem;
+    }
+    .sec4, .sec5, .sec7, .sec8, .sec9{
+        padding: 4rem 2rem;
+    }
+    .sec6{
+        padding: 3rem 2rem 0rem 2rem;
+    }
+    .size{
+        width: 100%;
+    }
+    .sec8 ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec8 ul li{
+        padding: .5rem 0rem;
+        border:0;
+        border-bottom: .1rem solid #7647c7;
+    }
+  
+  }
+  @media only screen and (max-width:321px){
+    .navbar-brand img{
+        width: 200px;
+        height: 55px;
+    }
+  }
