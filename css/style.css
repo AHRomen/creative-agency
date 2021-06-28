@@ -443,6 +443,8 @@ footer{
         border:0;
         border-bottom: .1rem solid #7647c7;
     }
+    .pictab button{
+	margin-bottom : .5rem;
   
   }
   @media only screen and (max-width:321px){
